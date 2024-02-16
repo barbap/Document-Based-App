@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		361138942B7FC3B6005CB013 /* DocumentBasedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361138932B7FC3B6005CB013 /* DocumentBasedAppApp.swift */; };
+		361138942B7FC3B6005CB013 /* DocumentBasedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361138932B7FC3B6005CB013 /* DocumentBasedApp.swift */; };
 		361138962B7FC3B6005CB013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361138952B7FC3B6005CB013 /* ContentView.swift */; };
 		361138982B7FC3B7005CB013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361138972B7FC3B7005CB013 /* Assets.xcassets */; };
 		3611389B2B7FC3B7005CB013 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3611389A2B7FC3B7005CB013 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		361138902B7FC3B6005CB013 /* DocumentBasedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentBasedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		361138932B7FC3B6005CB013 /* DocumentBasedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBasedAppApp.swift; sourceTree = "<group>"; };
+		361138932B7FC3B6005CB013 /* DocumentBasedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBasedApp.swift; sourceTree = "<group>"; };
 		361138952B7FC3B6005CB013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		361138972B7FC3B7005CB013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3611389A2B7FC3B7005CB013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		361138922B7FC3B6005CB013 /* DocumentBasedApp */ = {
 			isa = PBXGroup;
 			children = (
-				361138932B7FC3B6005CB013 /* DocumentBasedAppApp.swift */,
+				361138932B7FC3B6005CB013 /* DocumentBasedApp.swift */,
 				361138952B7FC3B6005CB013 /* ContentView.swift */,
 				361138972B7FC3B7005CB013 /* Assets.xcassets */,
 				361138992B7FC3B7005CB013 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				361138962B7FC3B6005CB013 /* ContentView.swift in Sources */,
-				361138942B7FC3B6005CB013 /* DocumentBasedAppApp.swift in Sources */,
+				361138942B7FC3B6005CB013 /* DocumentBasedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +308,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
